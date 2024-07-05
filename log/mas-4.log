@@ -1,0 +1,8 @@
+[giacomo] Could not finish intention:
+intention 1: 
+    +!create_auction_artifact("SitePreparation",2000)[source(self)] <- ... makeArtifact(ArtName,"tools.LeilaoVickrey",[Task,MaxPrice],ArtId); focus(ArtId) / {Task="SitePreparation", ArtName="auction_for_SitePreparation", MaxPrice=2000}
+    +!create_auction_artifacts[source(self)] <- ... !create_auction_artifact("SitePreparation",2000); !create_auction_artifact("Floors",1000); !create_auction_artifact("Walls",1000); !create_auction_artifact("Roof",2000); !create_auction_artifact("WindowsDoors",2500); !create_auction_artifact("Plumbing",500); !create_auction_artifact("ElectricalSystem",500); !create_auction_artifact("Painting",1200) / {}
+    +!contract[source(self)] <- ... !create_auction_artifacts; !wait_for_bids; !dispose_auction_artifacts / {}
+    +!have_a_house[source(self)] <- ... !contract; !execute / {}
+
+[giacomo] Found a goal for which there is no applicable plan: -!create_auction_artifact("SitePreparation",2000)[code(makeArtifact("auction_for_SitePreparation","tools.LeilaoVickrey",["SitePreparation",2000],_696)),code_line(45),code_src("file:src/agt/giacomo.asl"),env_failure_reason(makeArtifactFailure("init_failed","auction_for_SitePreparation")),error(action_failed),error_msg("artifact auction_for_SitePreparation creation failed: an error occurred in artifact initialisation"),source(self)]

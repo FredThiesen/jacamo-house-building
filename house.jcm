@@ -1,0 +1,21 @@
+/*
+ Projeto JaCaMo para o cenário de construção de casas utilizado
+ inicialmente no Tutorial de Programação Multiagente @ EASSS 2010
+
+*/
+
+mas house_building {
+
+   agent giacomo     // o agente que quer construir uma casa
+
+   agent empreiteiraThiesen // agente criado para o exercicio 4
+   agent companyA   // agentes construtores (veja seu código para detalhes)
+   agent companyB
+   agent companyC {
+      instances: 5
+   }
+   agent companyD {
+      instances: 13
+   }
+   agent companyE
+}
