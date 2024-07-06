@@ -1,294 +1,210 @@
-[companyC2] Meu lance no artefato cobj_2, Task SitePreparation, é 1900
-[companyC1] Meu lance no artefato cobj_2, Task SitePreparation, é 1900
+[companyC5] Meu lance no artefato cobj_2, Task SitePreparation, é 1900
+[companyD8] Meu lance no artefato cobj_2 é 4392
 [empreiteiraThiesen] Meu lance para a tarefa Plumbing é 490
-[companyC2] Meu lance no artefato cobj_3, Task Floors, é 900
+[companyC3] Meu lance no artefato cobj_2, Task Walls, é 900
+[companyC1] Meu lance no artefato cobj_2, Task SitePreparation, é 1900
 [companyB] Meu lance no artefato cobj_2 é 1850
-[companyE] Meu lance no artefato cobj_2, Task Floors, é 990
+[companyC2] Meu lance no artefato cobj_2, Task Floors, é 900
 [companyC1] Meu lance no artefato cobj_3, Task Floors, é 900
-[companyC4] Meu lance no artefato cobj_3, Task WindowsDoors, é 2000
-[companyB] Meu lance no artefato cobj_2 é 1750
-[companyE] Meu lance no artefato cobj_2, Task Floors, é 980
-[companyC5] Meu lance no artefato cobj_3, Task Walls, é 900
-[companyE] Meu lance no artefato cobj_4, Task Roof, é 1990
-[companyC2] Meu lance no artefato cobj_4, Task WindowsDoors, é 2000
-[companyE] Meu lance no artefato cobj_2, Task Floors, é 890
-[companyE] Meu lance no artefato cobj_5, Task Walls, é 990
-[companyE] Meu lance no artefato cobj_5, Task Walls, é 890
-[companyC4] Meu lance no artefato cobj_5, Task Roof, é 1100
+[companyC3] Meu lance no artefato cobj_4, Task Floors, é 900
+[companyC2] Meu lance no artefato cobj_5, Task Roof, é 1100
+[companyE] Meu lance no artefato cobj_2, Task Walls, é 890
 [companyA] Meu lance no artefato cobj_2 é 300
+[companyC3] Meu lance no artefato cobj_5, Task Roof, é 1100
+[companyC5] Meu lance no artefato cobj_4, Task Roof, é 1100
+[companyC1] Meu lance no artefato cobj_4, Task Walls, é 900
+[companyC3] Meu lance no artefato cobj_6, Task SitePreparation, é 1900
 [empreiteiraThiesen] Meu lance para a tarefa Plumbing é 290
-[companyE] Meu lance no artefato cobj_4, Task Roof, é 1090
-[companyC2] Meu lance no artefato cobj_6, Task Roof, é 1100
-[companyC2] Meu lance no artefato cobj_3, Task Floors, é 900
-[companyC1] Meu lance no artefato cobj_8, Task ElectricalSystem, é 300
-[companyC1] Meu lance no artefato cobj_10, Task Painting, é 1100
-[companyC2] Could not finish intention: intention 240: 
-    +currentBid(990)[artifact_id(cobj_3),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_3, S="Floors", V=990}
-	Trigger: +currentBid(990)[artifact_id(cobj_3),artifact_name(auction_for_Floors),code(bid(900)[artifact_id(cobj_3)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyC2] Meu lance no artefato cobj_7, Task Walls, é 900
-[companyC2] Meu lance no artefato cobj_6, Task Roof, é 1100
-[companyC2] Could not finish intention: intention 281: 
-    +currentBid(1990)[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_6, S="Roof", V=1990}
-	Trigger: +currentBid(1990)[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(1100)[artifact_id(cobj_6)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyC2] Meu lance no artefato cobj_8, Task Painting, é 1100
-[companyC2] Meu lance no artefato cobj_9, Task ElectricalSystem, é 300
-[companyD5] Meu lance no artefato cobj_3 é 803
-[companyD5] Could not finish intention: intention 183: 
-    +task("SitePreparation")[artifact_id(cobj_3),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_3, S="SitePreparation", Bid=803}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_3),artifact_name(auction_for_SitePreparation),code(bid(803)[artifact_id(cobj_3)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD6] Meu lance no artefato cobj_7 é 8610
-[companyD6] Meu lance no artefato cobj_8 é 6529
-[companyD10] Meu lance no artefato cobj_3 é 7927
-[companyD6] Could not finish intention: intention 178: 
-    +task("Roof")[artifact_id(cobj_8),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Roof", Bid=6529}
-	Trigger: +task("Roof")[artifact_id(cobj_8),artifact_name(auction_for_Roof),code(bid(6529)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD10] Could not finish intention: intention 169: 
-    +task("Floors")[artifact_id(cobj_3),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_3, S="Floors", Bid=7927}
-	Trigger: +task("Floors")[artifact_id(cobj_3),artifact_name(auction_for_Floors),code(bid(7927)[artifact_id(cobj_3)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD12] Meu lance no artefato cobj_10 é 3500
-[companyD10] Meu lance no artefato cobj_2 é 4544
-[companyD10] Could not finish intention: intention 168: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=4544}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(4544)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD6] Meu lance no artefato cobj_5 é 3146
-[companyD2] Meu lance no artefato cobj_8 é 4735
-[companyD2] Could not finish intention: intention 243: 
-    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=4735}
-	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(4735)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD12] Meu lance no artefato cobj_8 é 7255
-[companyD12] Could not finish intention: intention 226: 
-    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=7255}
-	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(7255)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD12] Meu lance no artefato cobj_2 é 8574
-[companyD12] Could not finish intention: intention 158: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=8574}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(8574)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD9] Meu lance no artefato cobj_3 é 6159
-[companyD9] Could not finish intention: intention 197: 
-    +task("Floors")[artifact_id(cobj_3),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_3, S="Floors", Bid=6159}
-	Trigger: +task("Floors")[artifact_id(cobj_3),artifact_name(auction_for_Floors),code(bid(6159)[artifact_id(cobj_3)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD13] Meu lance no artefato cobj_3 é 9593
-[companyD1] Meu lance no artefato cobj_2 é 6429
-[companyD5] Meu lance no artefato cobj_9 é 2170
-[companyD2] Meu lance no artefato cobj_5 é 3140
-[companyD13] Could not finish intention: intention 205: 
-    +task("SitePreparation")[artifact_id(cobj_3),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_3, S="SitePreparation", Bid=9593}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_3),artifact_name(auction_for_SitePreparation),code(bid(9593)[artifact_id(cobj_3)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD1] Could not finish intention: intention 152: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=6429}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(6429)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD10] Meu lance no artefato cobj_4 é 823
-[companyD10] Could not finish intention: intention 172: 
-    +task("Roof")[artifact_id(cobj_4),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Roof", Bid=823}
-	Trigger: +task("Roof")[artifact_id(cobj_4),artifact_name(auction_for_Roof),code(bid(823)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD1] Meu lance no artefato cobj_9 é 7791
-[companyD12] Meu lance no artefato cobj_5 é 6874
-[companyD7] Meu lance no artefato cobj_10 é 5181
-[companyD11] Meu lance no artefato cobj_10 é 8305
-[companyD2] Meu lance no artefato cobj_4 é 9554
-[companyD2] Could not finish intention: intention 160: 
-    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=9554}
-	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(9554)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD10] Meu lance no artefato cobj_5 é 10539
-[companyD13] Meu lance no artefato cobj_2 é 931
-[companyD13] Could not finish intention: intention 203: 
-    +task("Floors")[artifact_id(cobj_2),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="Floors", Bid=931}
-	Trigger: +task("Floors")[artifact_id(cobj_2),artifact_name(auction_for_Floors),code(bid(931)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD9] Meu lance no artefato cobj_2 é 3462
-[companyD9] Could not finish intention: intention 196: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=3462}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(3462)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD12] Meu lance no artefato cobj_9 é 9726
-[companyD11] Meu lance no artefato cobj_2 é 9010
-[companyD11] Could not finish intention: intention 159: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=9010}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(9010)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD4] Meu lance no artefato cobj_6 é 8883
-[companyD9] Meu lance no artefato cobj_5 é 1492
-[companyD6] Meu lance no artefato cobj_4 é 5528
-[companyD8] Meu lance no artefato cobj_3 é 925
-[companyD6] Could not finish intention: intention 167: 
-    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=5528}
-	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(5528)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD7] Meu lance no artefato cobj_8 é 3667
-[companyD7] Could not finish intention: intention 257: 
-    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=3667}
-	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(3667)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD2] Meu lance no artefato cobj_10 é 1773
-[companyD7] Meu lance no artefato cobj_6 é 8073
-[companyD7] Could not finish intention: intention 255: 
-    +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Roof", Bid=8073}
-	Trigger: +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(8073)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD10] Meu lance no artefato cobj_7 é 4355
-[companyD3] Meu lance no artefato cobj_4 é 10487
-[companyD3] Could not finish intention: intention 271: 
-    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=10487}
-	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(10487)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD3] Meu lance no artefato cobj_2 é 2745
-[companyD3] Could not finish intention: intention 153: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=2745}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(2745)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD5] Meu lance no artefato cobj_5 é 4906
-[companyD7] Meu lance no artefato cobj_4 é 9997
-[companyD13] Meu lance no artefato cobj_4 é 10103
-[companyD8] Meu lance no artefato cobj_10 é 6648
-[companyD1] Meu lance no artefato cobj_10 é 10470
-[companyD5] Meu lance no artefato cobj_10 é 6991
-[companyD1] Meu lance no artefato cobj_8 é 928
-[companyD8] Meu lance no artefato cobj_5 é 4383
-[companyD1] Could not finish intention: intention 247: 
-    +task("Roof")[artifact_id(cobj_8),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Roof", Bid=928}
-	Trigger: +task("Roof")[artifact_id(cobj_8),artifact_name(auction_for_Roof),code(bid(928)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD8] Could not finish intention: intention 170: 
-    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=4383}
-	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(4383)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD8] Meu lance no artefato cobj_8 é 6991
-[companyD3] Meu lance no artefato cobj_8 é 6370
-[companyD8] Meu lance no artefato cobj_4 é 7555
-[companyD5] Meu lance no artefato cobj_4 é 5289
-[companyD5] Meu lance no artefato cobj_8 é 2426
-[companyD8] Could not finish intention: intention 165: 
-    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=7555}
-	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(7555)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD5] Could not finish intention: intention 198: 
-    +task("Roof")[artifact_id(cobj_4),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Roof", Bid=5289}
-	Trigger: +task("Roof")[artifact_id(cobj_4),artifact_name(auction_for_Roof),code(bid(5289)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD11] Meu lance no artefato cobj_4 é 1812
-[companyD5] Could not finish intention: intention 258: 
-    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=2426}
-	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(2426)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD4] Meu lance no artefato cobj_5 é 1933
-[companyD4] Could not finish intention: intention 189: 
-    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=1933}
-	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(1933)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD9] Meu lance no artefato cobj_10 é 7229
-[companyD1] Meu lance no artefato cobj_7 é 7726
-[companyD1] Could not finish intention: intention 246: 
-    +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Plumbing", Bid=7726}
-	Trigger: +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),code(bid(7726)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD5] Meu lance no artefato cobj_2 é 5431
-[companyD5] Could not finish intention: intention 182: 
-    +task("Floors")[artifact_id(cobj_2),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="Floors", Bid=5431}
-	Trigger: +task("Floors")[artifact_id(cobj_2),artifact_name(auction_for_Floors),code(bid(5431)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD11] Meu lance no artefato cobj_9 é 1539
-[companyD9] Meu lance no artefato cobj_7 é 6518
-[companyD9] Could not finish intention: intention 225: 
-    +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Plumbing", Bid=6518}
-	Trigger: +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),code(bid(6518)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD6] Meu lance no artefato cobj_2 é 8061
-[companyD6] Could not finish intention: intention 157: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=8061}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(8061)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD8] Meu lance no artefato cobj_2 é 4824
-[companyD8] Could not finish intention: intention 163: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=4824}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(4824)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD3] Meu lance no artefato cobj_9 é 9393
-[companyD8] Meu lance no artefato cobj_9 é 4358
-[companyD8] Could not finish intention: intention 192: 
-    +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Plumbing", Bid=4358}
-	Trigger: +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),code(bid(4358)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD11] Meu lance no artefato cobj_8 é 5417
-[companyD13] Meu lance no artefato cobj_5 é 4680
-[companyD11] Could not finish intention: intention 218: 
-    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=5417}
-	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(5417)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD13] Could not finish intention: intention 207: 
-    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=4680}
-	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(4680)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD9] Meu lance no artefato cobj_9 é 1848
-[companyD4] Meu lance no artefato cobj_10 é 7518
-[companyD11] Meu lance no artefato cobj_7 é 1996
-[companyD13] Meu lance no artefato cobj_7 é 9266
-[companyD13] Could not finish intention: intention 252: 
-    +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Plumbing", Bid=9266}
-	Trigger: +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),code(bid(9266)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD1] Meu lance no artefato cobj_6 é 9037
-[companyD5] Meu lance no artefato cobj_6 é 3342
-[companyD4] Meu lance no artefato cobj_7 é 10100
-[companyD4] Meu lance no artefato cobj_4 é 2029
-[companyD13] Meu lance no artefato cobj_9 é 5573
-[companyD4] Could not finish intention: intention 187: 
-    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=2029}
-	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(2029)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD3] Meu lance no artefato cobj_5 é 6967
-[companyD3] Could not finish intention: intention 272: 
-    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=6967}
-	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(6967)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD2] Meu lance no artefato cobj_6 é 3139
-[companyD7] Meu lance no artefato cobj_2 é 5065
-[companyD7] Could not finish intention: intention 155: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=5065}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(5065)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD7] Meu lance no artefato cobj_5 é 6596
-[companyD2] Meu lance no artefato cobj_2 é 2509
-[companyD7] Could not finish intention: intention 254: 
-    +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Floors", Bid=6596}
-	Trigger: +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),code(bid(6596)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD2] Could not finish intention: intention 156: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=2509}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(2509)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD11] Meu lance no artefato cobj_6 é 3357
-[companyD11] Could not finish intention: intention 216: 
-    +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Roof", Bid=3357}
-	Trigger: +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(3357)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD4] Meu lance no artefato cobj_9 é 5784
-[companyD10] Meu lance no artefato cobj_8 é 4687
-[companyD10] Meu lance no artefato cobj_9 é 6578
-[companyD10] Could not finish intention: intention 184: 
-    +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Plumbing", Bid=6578}
-	Trigger: +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),code(bid(6578)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD8] Meu lance no artefato cobj_7 é 6115
-[companyD9] Meu lance no artefato cobj_6 é 5662
-[companyD12] Meu lance no artefato cobj_3 é 10294
-[companyD7] Meu lance no artefato cobj_9 é 7510
-[companyD12] Could not finish intention: intention 162: 
-    +task("Floors")[artifact_id(cobj_3),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_3, S="Floors", Bid=10294}
-	Trigger: +task("Floors")[artifact_id(cobj_3),artifact_name(auction_for_Floors),code(bid(10294)[artifact_id(cobj_3)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD9] Could not finish intention: intention 223: 
-    +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Roof", Bid=5662}
-	Trigger: +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(5662)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD4] Meu lance no artefato cobj_8 é 8007
-[companyD4] Could not finish intention: intention 278: 
-    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=8007}
-	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(8007)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD2] Meu lance no artefato cobj_9 é 5123
-[companyD2] Meu lance no artefato cobj_7 é 5336
-[companyD2] Could not finish intention: intention 242: 
-    +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Roof", Bid=5336}
-	Trigger: +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),code(bid(5336)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD4] Meu lance no artefato cobj_2 é 9498
-[companyD4] Could not finish intention: intention 154: 
-    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=9498}
-	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(9498)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD13] Meu lance no artefato cobj_8 é 9865
-[companyD6] Meu lance no artefato cobj_6 é 4029
-[companyD6] Could not finish intention: intention 176: 
-    +task("Plumbing")[artifact_id(cobj_6),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Plumbing", Bid=4029}
-	Trigger: +task("Plumbing")[artifact_id(cobj_6),artifact_name(auction_for_Plumbing),code(bid(4029)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD1] Meu lance no artefato cobj_5 é 2222
-[companyD1] Meu lance no artefato cobj_4 é 4506
-[companyD13] Meu lance no artefato cobj_10 é 7492
-[companyD1] Could not finish intention: intention 239: 
-    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=4506}
-	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(4506)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD6] Meu lance no artefato cobj_9 é 5813
-[companyD3] Meu lance no artefato cobj_10 é 1942
-[companyD11] Meu lance no artefato cobj_5 é 3268
+[companyE] Meu lance no artefato cobj_4, Task Floors, é 890
+[companyE] Meu lance no artefato cobj_5, Task Roof, é 1990
+[companyE] Meu lance no artefato cobj_5, Task Roof, é 1090
+[companyC1] Meu lance no artefato cobj_5, Task Roof, é 1100
+[companyC4] Meu lance no artefato cobj_6, Task Roof, é 1100
+[companyC5] Meu lance no artefato cobj_5, Task WindowsDoors, é 2000
+[companyC1] Meu lance no artefato cobj_6, Task WindowsDoors, é 2000
+[companyC4] Meu lance no artefato cobj_8, Task ElectricalSystem, é 300
+[companyC5] Meu lance no artefato cobj_8, Task Painting, é 1100
+[companyC4] Meu lance no artefato cobj_9, Task WindowsDoors, é 2000
+[companyC4] Meu lance no artefato cobj_10, Task Painting, é 1100
+[companyD10] Meu lance no artefato cobj_2 é 5633
+[companyD1] Meu lance no artefato cobj_6 é 936
+[companyD7] Meu lance no artefato cobj_2 é 5323
+[companyE] Meu lance no artefato cobj_5, Task Roof, é 926
+[companyE] Could not finish intention: intention 283: 
+    +currentBid(936)[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(math.max((V-10),P))[artifact_id(Art)] / {P=800, Art=cobj_5, Sum=1780, S="Roof", V=936}
+	Trigger: +currentBid(936)[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(926)[artifact_id(cobj_5)]),code_line(32),code_src("file:src/agt/companyE.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Meu lance no artefato cobj_8 é 9628
+[companyD10] Meu lance no artefato cobj_4 é 3366
+[companyD13] Meu lance no artefato cobj_8 é 5055
+[companyD1] Meu lance no artefato cobj_8 é 3969
+[companyD7] Meu lance no artefato cobj_8 é 4264
+[companyD11] Meu lance no artefato cobj_4 é 5844
+[companyD2] Meu lance no artefato cobj_9 é 6825
+[companyD13] Meu lance no artefato cobj_5 é 5746
+[companyD13] Could not finish intention: intention 177: 
+    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=5746}
+	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(5746)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Meu lance no artefato cobj_4 é 1402
+[companyD3] Meu lance no artefato cobj_2 é 4338
+[companyD9] Meu lance no artefato cobj_5 é 9265
+[companyD5] Meu lance no artefato cobj_2 é 7324
+[companyD9] Meu lance no artefato cobj_7 é 5681
+[companyD2] Meu lance no artefato cobj_8 é 9259
+[companyD6] Meu lance no artefato cobj_10 é 1005
+[companyD9] Meu lance no artefato cobj_8 é 3638
+[companyD2] Meu lance no artefato cobj_2 é 9670
+[companyD6] Meu lance no artefato cobj_3 é 6300
+[companyD9] Meu lance no artefato cobj_9 é 4156
+[companyD9] Could not finish intention: intention 239: 
+    +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Plumbing", Bid=4156}
+	Trigger: +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),code(bid(4156)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD11] Meu lance no artefato cobj_10 é 4715
 [companyD11] Could not finish intention: intention 215: 
-    +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Floors", Bid=3268}
-	Trigger: +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),code(bid(3268)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD10] Meu lance no artefato cobj_10 é 2940
-[companyD3] Meu lance no artefato cobj_6 é 1712
-[companyD12] Meu lance no artefato cobj_6 é 4835
-[companyD12] Could not finish intention: intention 222: 
-    +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Roof", Bid=4835}
-	Trigger: +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(4835)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD3] Meu lance no artefato cobj_7 é 10769
-[companyD3] Could not finish intention: intention 274: 
-    +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Plumbing", Bid=10769}
-	Trigger: +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),code(bid(10769)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
-[companyD6] Meu lance no artefato cobj_10 é 7330
-[companyD9] Meu lance no artefato cobj_8 é 8798
-[companyD12] Meu lance no artefato cobj_7 é 815
-[companyD7] Meu lance no artefato cobj_7 é 3556
+    +task("Plumbing")[artifact_id(cobj_10),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Plumbing", Bid=4715}
+	Trigger: +task("Plumbing")[artifact_id(cobj_10),artifact_name(auction_for_Plumbing),code(bid(4715)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Meu lance no artefato cobj_4 é 1599
+[companyD2] Meu lance no artefato cobj_10 é 1366
+[companyD13] Meu lance no artefato cobj_3 é 4874
+[companyD11] Meu lance no artefato cobj_8 é 2462
+[companyD1] Meu lance no artefato cobj_9 é 10148
+[companyD1] Could not finish intention: intention 218: 
+    +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Plumbing", Bid=10148}
+	Trigger: +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),code(bid(10148)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Meu lance no artefato cobj_7 é 8772
+[companyD2] Could not finish intention: intention 233: 
+    +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Plumbing", Bid=8772}
+	Trigger: +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),code(bid(8772)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Meu lance no artefato cobj_7 é 3025
+[companyD12] Meu lance no artefato cobj_3 é 4733
+[companyD4] Meu lance no artefato cobj_4 é 4990
+[companyD4] Could not finish intention: intention 225: 
+    +task("Roof")[artifact_id(cobj_4),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Roof", Bid=4990}
+	Trigger: +task("Roof")[artifact_id(cobj_4),artifact_name(auction_for_Roof),code(bid(4990)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Meu lance no artefato cobj_2 é 10543
+[companyD9] Meu lance no artefato cobj_10 é 1078
+[companyD10] Meu lance no artefato cobj_8 é 7304
+[companyD13] Meu lance no artefato cobj_7 é 8058
+[companyD13] Could not finish intention: intention 182: 
+    +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Plumbing", Bid=8058}
+	Trigger: +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),code(bid(8058)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD10] Meu lance no artefato cobj_9 é 4716
+[companyD10] Meu lance no artefato cobj_5 é 9751
+[companyD10] Meu lance no artefato cobj_10 é 7584
+[companyD10] Could not finish intention: intention 269: 
+    +task("Roof")[artifact_id(cobj_10),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Roof", Bid=7584}
+	Trigger: +task("Roof")[artifact_id(cobj_10),artifact_name(auction_for_Roof),code(bid(7584)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Meu lance no artefato cobj_6 é 8476
+[companyD8] Meu lance no artefato cobj_10 é 988
+[companyD3] Meu lance no artefato cobj_7 é 1868
+[companyD8] Could not finish intention: intention 264: 
+    +task("Plumbing")[artifact_id(cobj_10),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Plumbing", Bid=988}
+	Trigger: +task("Plumbing")[artifact_id(cobj_10),artifact_name(auction_for_Plumbing),code(bid(988)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Could not finish intention: intention 240: 
+    +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Plumbing", Bid=1868}
+	Trigger: +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),code(bid(1868)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD13] Meu lance no artefato cobj_10 é 9518
+[companyD5] Meu lance no artefato cobj_5 é 8030
+[companyD11] Meu lance no artefato cobj_2 é 3517
+[companyD5] Could not finish intention: intention 270: 
+    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=8030}
+	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(8030)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD6] Meu lance no artefato cobj_2 é 7434
+[companyD12] Meu lance no artefato cobj_5 é 4322
+[companyD12] Could not finish intention: intention 170: 
+    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=4322}
+	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(4322)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Meu lance no artefato cobj_2 é 3548
+[companyD1] Meu lance no artefato cobj_3 é 5486
+[companyD7] Meu lance no artefato cobj_7 é 1381
+[companyD7] Could not finish intention: intention 203: 
+    +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Roof", Bid=1381}
+	Trigger: +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),code(bid(1381)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD1] Meu lance no artefato cobj_2 é 5591
+[companyD13] Meu lance no artefato cobj_6 é 10475
+[companyD2] Meu lance no artefato cobj_5 é 8551
+[companyD11] Meu lance no artefato cobj_7 é 1445
+[companyD2] Could not finish intention: intention 230: 
+    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=8551}
+	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(8551)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD11] Could not finish intention: intention 211: 
+    +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Roof", Bid=1445}
+	Trigger: +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),code(bid(1445)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD5] Meu lance no artefato cobj_7 é 2040
+[companyD10] Meu lance no artefato cobj_6 é 10108
+[companyD4] Meu lance no artefato cobj_8 é 4355
+[companyD6] Meu lance no artefato cobj_6 é 2044
+[companyD6] Could not finish intention: intention 245: 
+    +task("Plumbing")[artifact_id(cobj_6),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Plumbing", Bid=2044}
+	Trigger: +task("Plumbing")[artifact_id(cobj_6),artifact_name(auction_for_Plumbing),code(bid(2044)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Meu lance no artefato cobj_5 é 7151
+[companyD3] Meu lance no artefato cobj_10 é 10160
+[companyD9] Meu lance no artefato cobj_4 é 5630
+[companyD1] Meu lance no artefato cobj_7 é 3112
+[companyD12] Meu lance no artefato cobj_7 é 9856
+[companyD6] Meu lance no artefato cobj_9 é 4722
+[companyD3] Meu lance no artefato cobj_6 é 8100
+[companyD3] Meu lance no artefato cobj_9 é 3699
+[companyD3] Could not finish intention: intention 256: 
+    +task("Roof")[artifact_id(cobj_9),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Roof", Bid=3699}
+	Trigger: +task("Roof")[artifact_id(cobj_9),artifact_name(auction_for_Roof),code(bid(3699)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Meu lance no artefato cobj_9 é 1776
+[companyD8] Meu lance no artefato cobj_6 é 6574
+[companyD7] Meu lance no artefato cobj_4 é 6087
+[companyD12] Meu lance no artefato cobj_9 é 3691
+[companyD11] Meu lance no artefato cobj_9 é 2807
+[companyD12] Could not finish intention: intention 206: 
+    +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Plumbing", Bid=3691}
+	Trigger: +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),code(bid(3691)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Meu lance no artefato cobj_9 é 8896
+[companyD10] Meu lance no artefato cobj_7 é 5119
+[companyD10] Could not finish intention: intention 265: 
+    +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Plumbing", Bid=5119}
+	Trigger: +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),code(bid(5119)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD9] Meu lance no artefato cobj_2 é 10695
+[companyD5] Meu lance no artefato cobj_8 é 10078
+[companyD5] Meu lance no artefato cobj_4 é 10198
+[companyD8] Meu lance no artefato cobj_5 é 4565
+[companyD8] Could not finish intention: intention 228: 
+    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=4565}
+	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(4565)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD1] Meu lance no artefato cobj_10 é 1895
+[companyD7] Meu lance no artefato cobj_9 é 10528
+[companyD3] Meu lance no artefato cobj_8 é 7170
+[companyD7] Meu lance no artefato cobj_5 é 5268
+[companyD7] Meu lance no artefato cobj_6 é 8952
+[companyD7] Could not finish intention: intention 190: 
+    +task("Plumbing")[artifact_id(cobj_5),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Plumbing", Bid=5268}
+	Trigger: +task("Plumbing")[artifact_id(cobj_5),artifact_name(auction_for_Plumbing),code(bid(5268)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Meu lance no artefato cobj_4 é 3494
+[companyD8] Meu lance no artefato cobj_8 é 10736
+[companyD6] Meu lance no artefato cobj_8 é 6535
+[companyD6] Could not finish intention: intention 249: 
+    +task("Roof")[artifact_id(cobj_8),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Roof", Bid=6535}
+	Trigger: +task("Roof")[artifact_id(cobj_8),artifact_name(auction_for_Roof),code(bid(6535)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Meu lance no artefato cobj_5 é 3176
+[companyD13] Meu lance no artefato cobj_4 é 4618
+[companyD4] Meu lance no artefato cobj_10 é 8012
+[companyD4] Could not finish intention: intention 254: 
+    +task("Plumbing")[artifact_id(cobj_10),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Plumbing", Bid=8012}
+	Trigger: +task("Plumbing")[artifact_id(cobj_10),artifact_name(auction_for_Plumbing),code(bid(8012)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD11] Meu lance no artefato cobj_5 é 10318
+[companyD5] Meu lance no artefato cobj_6 é 1220
+[companyD11] Meu lance no artefato cobj_6 é 8704
+[companyD1] Meu lance no artefato cobj_4 é 5606
+[companyD4] Meu lance no artefato cobj_7 é 6170
+[companyD7] Meu lance no artefato cobj_10 é 6199
+[companyD13] Meu lance no artefato cobj_2 é 8871
+[companyD4] Meu lance no artefato cobj_6 é 9559
+[companyD9] Meu lance no artefato cobj_6 é 4266
+[companyD9] Could not finish intention: intention 200: 
+    +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Roof", Bid=4266}
+	Trigger: +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(4266)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD6] Meu lance no artefato cobj_5 é 2802
+[companyD5] Meu lance no artefato cobj_9 é 4750
+[companyD5] Meu lance no artefato cobj_10 é 3583
+[companyD5] Could not finish intention: intention 276: 
+    +task("Plumbing")[artifact_id(cobj_10),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Plumbing", Bid=3583}
+	Trigger: +task("Plumbing")[artifact_id(cobj_10),artifact_name(auction_for_Plumbing),code(bid(3583)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Número máximo de lances atingido."),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Meu lance no artefato cobj_4 é 2240
+[companyD6] Meu lance no artefato cobj_7 é 3082
+[companyD12] Meu lance no artefato cobj_10 é 3280
